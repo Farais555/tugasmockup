@@ -1,0 +1,155 @@
+/* Navbar */
+.navbar-brand {
+    font-family: viga;
+    font-size: 25px;
+}
+
+
+/* utilititiD */
+.timbal {
+    text-transform: capitalize;
+    border-radius: 40px;
+    background: url("https://img.freepik.com/free-vector/modern-space-rocket-with-flat-design_23-2147900378.jpg?size=338&ext=jpg");
+    border: 1px solid thistle;
+}
+
+.tombol {
+    border: 0px;
+    background-color: transparent;
+    color: blue;
+}
+
+.banner {
+    background: url("https://images6.alphacoders.com/542/542443.jpg") 
+    no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+}
+
+.banner .display-1 {
+    color: white;
+    text-align: center;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 4);
+}
+
+.banner .display-1 span {
+    color: red;
+}
+
+.banner .display-6 span {
+    font-weight: 500;
+}
+
+.tim img {
+    width: 250px;
+    border: 10px solid #cccccc;
+}
+
+.crop-img {
+    object-fit: cover;
+    border: 1px solid #cccccc;
+    border-radius: 40px;
+}
+
+.client img{
+    height: auto;
+    max-height: 50px;
+}
+
+.tumbal {
+    text-transform: capitalize;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.bgkd {
+    background: url("https://th.bing.com/th/id/R.b31039222583f8c6d696f1f74ea180d4?rik=aWBaxPnYnBijrg&riu=http%3a%2f%2fpapers.co%2fwallpaper%2fpapers.co-vy42-honey-hexagon-digital-abstract-pattern-background-red-35-3840x2160-4k-wallpaper.jpg&ehk=pvWFmdK%2f2Aby26F%2bgFqLCLA50MoZz869%2bxTjKfqA%2b8c%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.bgst {
+    background: rgba(22, 21, 21, 0.986);
+    background-size: cover;
+}
+
+.tulisan {
+    font-family: viga;
+    font-size: 25px;
+    text-shadow: rgba(0, 0, 0, 0.7);
+    color: white !important;
+}
+
+.warna {
+    color: white;
+}
+.kanan {
+    text-align: center;
+}
+
+.tengah {
+    text-align: right;
+}
+
+.turbo {
+    border-radius: 40px;
+}
+
+.ling {
+    text-decoration: none;
+    font-family: roboto;
+    color: white;
+}
+
+.dumpi .dispaly-3 span {
+    font-family: lobster;
+    color: yellow;
+}
+
+/* footer */
+.tempel {
+    border-radius: 40px;
+}
+
+
+
+
+/* DEKSTOP version */
+@media (min-width: 992px) { 
+    .navbar-brand, .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 4);
+    }
+
+    .nav-link {
+        text-transform: capitalize;
+        margin-right: 30px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid blue;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .banner {
+        margin-top: -75px;
+    }
+
+    .tombol {
+        border: 0px;
+        background-color: transparent;
+        color:white
+    }
+    
+ }
