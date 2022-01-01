@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Pushster&family=Roboto:wght@100&family=Shizuru&family=Viga&display=swap" rel="stylesheet">
+
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Kreasi Nurul Fikri</title>
+  </head>
+  <body>
+    <!-- navigasi bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="foto/Logo_STTNF-removebg-preview.png" alt="" width="60" height="48" class="d-inline-block">
+          NFHoster
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimoni">Testimoni</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#keunggulan">Keunggulan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#download">Download</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+            <button class="btn btn-primary tombol"><i class="fas fa-search"></i></button>
+            <br/>
+            <button class="btn btn-primary tombol"><i class="fas fa-shopping-cart"></i> Cart</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- Banner wkwkwk -->
+    <div class="container-fluid banner" id="home">
+      <div class="container text-center">
+          <h4 class="display-1"><strong>Open</strong> <span>Mind</span> Be <strong>Creative</strong>.</h4>
+          <h1 class="display-6">Nurul Fikri Hoster, tempatnya hosting <span>terjangkau</span> dan <span>terpercaya.</span> </h1>
+          <a href="#">
+              <button type="button" class="btn btn-danger btn-lg timbal">Cek Layanan</button>
+          </a>
+      </div>
+    </div>
+    <!-- akhir banner -->
+
+    <!-- testimoni -->
+    <div class="container-fluid pt-5 pb-5 ">
+      <div class="container text-center">
+          <h2 class="display-3" id="testimoni">Testimoni.</h2>
+          <p>Mereka adalah beberapa konsumen yang merasa puas dengan NFHoster.</p>
+          <div class="row pt-4 gx-4 gy-4">
+              <div class="col-md-4 text-center tim">
+                  <img src="https://th.bing.com/th/id/OIP.EKezldg04oFEHRR2OukXpwHaHd?pid=ImgDet&rs=1"
+                  class="rounded-circle mb-3"/>
+                  <h4>Crishtiano Romadhoni.</h4>
+                  <p><i>"Saya sungguh senang sekali menyewa host dari NFHoster dikarenakan murahnya biaya dan banyaknya fitur yang kita dapatkan."</i></p>
+              </div>
+              <div class="col-md-4 text-center tim">
+                <img src="https://yt3.ggpht.com/a/AATXAJwIO2d4ntj5tKiJdZnxvHnVstSls1c0c2sNTg=s900-c-k-c0xffffffff-no-rj-mo"
+                class="rounded-circle mb-3"/>
+                <h4>Masashi Ora Percaya</h4>
+                <p><i>"Hosting di NFHoster sangat bisa diandalkan karena saya jadi lebih leluasa mempromosikan komik buatan saya."</i></p>
+              </div>
+              <div class="col-md-4 text-center tim">
+                <img src="https://th.bing.com/th/id/OIP.K3N7sLV8_2Y-thUIo4bnfAHaHa?pid=ImgDet&rs=1"
+                class="rounded-circle mb-3"/>
+                <h4>Jessica Janemila Iskandar.</h4>
+                <p><i>"Sebagai mantan Pro-player Game, saya sangat terbantu dengan adanya NFHoster karena saya bisa menyebarkan link phising untuk mendapatkan keuntungan pribadi."</i></p>
+              </div>
+          </div>
+      </div>
+    </div>
+    <!-- akhir testimoni -->
+
+    <!-- fitur -->
+    <div class="container-fluid pt-5 pb-5">
+      <div class="container">
+        <h2 class="display-3 text-center" id="keunggulan">Keunggulan.</h2>
+        <div class="clearfix pt-5">
+          <div class="row">
+            <div class="col">
+              <h4 style="color: darkgray;">Harga Terbaik</h4>
+              <h2>Biaya Hemat, Kualitas Hebat</h2>
+              <p style="color: darkgray;">Anda bisa memiliki website siap pakai hanya dengan sedikit biaya. Fitur yang lengkap akan memudahkan proses pembuatan website, mulai dari Auto-Install WordPress, cPanel, hingga SSL gratis. Jaminan server uptime 99,98% memungkinkan website Anda selalu online setiap saat.</p>
+            </div>
+            <img src="best-price1.jpg" class="col-md-6 float-md-end mb-3 crop-img"
+            width="300" height="300"/>
+          </div>
+        </div>
+
+        <div class="clearfix pt-5">
+          <div class="row">
+            <div class="col">
+              <h4 style="color: darkgray;">Performa Luar Biasa</h4>
+              <h3>Prioritas <strong style="color: yellow;"><i>KECEPATAN</i></strong> dan <STRong style="color: cornflowerblue;"><i>KEAMANAN</i></STRong></h3>
+              <p style="color: darkgray;">Dukungan LiteSpeed Web Server membuat website Anda lebih cepat diakses. Tidak hanya itu saja, teknologi keamanan Imunify360 memungkinkan website Anda terlindung dari serangan hacker, malware, dan virus berbahaya.</p>
+              </div>
+            <img src="best-performance1.jpg" class="col-md-6 float-md-end mb-3 crop-img"
+            width="300" height="300"/>
+          </div>
+        </div>
+
+        <div class="clearfix pt-5">
+          <div class="row">
+            <div class="col">
+              <h4 style="color: darkgray;">Layanan Pelanggan Istimewa</h4>
+              <h2>Dukungan Teknis Nomor 1 di Indonesia</h2>
+              <p style="color: darkgray;">Hubungi Customer Success Agent NFHoster kapan saja ketika terjadi permasalahan pada website Anda. Tidak perlu menunggu lama, permasalahan Anda akan diselesaikan secara cepat dan real-time melalui live-chat Intercom.</p>
+            </div>
+            <img src="https://www.niagahoster.co.id/assets/images/2021/arunika/banner/customer-service.webp" class="col-md-6 float-md-end mb-3 crop-img"
+            width="300" height="300"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- akhir fitur -->
+
+    <!-- client -->
+    <div class="container-fluid pt-5 pb-5">
+      <div class="container client text-center">
+          <h2 class="display-3" id="#">Dipercaya 52.000+ Pelanggan di Seluruh Indonesia</h2>
+          <div class="row pt-4 gx-4 gy-4"">
+              <div class="col">
+                  <img src="https://www.thedigitalhash.com/wp-content/uploads/2020/12/MPL-Logo-04.jpg"/>
+              </div>
+              <div class="col">
+                <img src="https://files.sitestatic.net/ImageFile/XlHCzrhEdk2uHwE0zDXpq5qLpQiiQDt8YQXr9Wwp.png"/>
+              </div>
+              <div class="col">
+                <img src="https://i.pinimg.com/originals/31/30/b5/3130b549de2fb85643f567641ef2183e.jpg"/>
+              </div>
+              <div class="col">
+                <img src="https://i.pinimg.com/originals/33/3e/22/333e22f464ed18e1c691a8720e29e9b6.png" />
+              </div>
+              <div class="col">
+                <img src="https://logos-download.com/wp-content/uploads/2016/05/Garuda_Indonesia_logo_white_bg.png" />
+              </div>
+          </div>
+      </div>
+    </div>
+    <!-- akhir client -->
+
+    <!-- kotak download -->
+    <div class="container-fluid layanan pt-5 pb-5 bgkd" id="download">
+      <div class="container text-center">
+          <h4 class="display-6" id="#">Download kami dengan perangkat mobile mu.</h4>
+          <p>Untuk lebih memudahkan kalian, kami juga bisa diunduh lewat os berikut.</p>
+          <a href="#">
+            <button type="button" class="btn btn-primary btn-lg tumbal"><i class="fab fa-android"></i>Android</button>
+          </a>
+          <a href="#">
+            <button type="button" class="btn btn-primary btn-lg tumbal"><i class="fab fa-apple"></i>iPhone</button>
+          </a>
+      </div>
+    </div>
+    <!-- akhir kotak download -->
+
+    <!-- footer -->
+    <div class="container-fluid bg-dark p-3">
+      <footer>
+        <div class="row">
+          <div class="col-12 col-sm-2"><h4 style="color: white;"><img src="foto/Logo_STTNF-removebg-preview1-removebg-preview.png" alt="" width="60" height="48" class="d-inline-block">NFHoster</h4></h4></div>
+          <div class="col-12 col-sm-10">
+            <a  style="text-decoration: none; font-family: roboto; text-shadow: 1px 1px 1px rgb(0, 0, 247);" href="#home">Home</a>
+            <a  style="text-decoration: none; font-family: roboto; text-shadow: 1px 1px 1px rgb(0, 0, 247);" href="#download">Download</a>
+            <a  style="text-decoration: none; font-family: roboto; text-shadow: 1px 1px 1px rgb(0, 0, 247);" href="#keunggulan">Keunggulan</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-6 mt-3">
+            <a href="#" class="social"><i class="fab fa-cc-visa fa-2x"></i></a>
+            <a href="#" class="social"><i class="fab fa-cc-mastercard fa-2x"></i></a>
+            <a href="#" class="social"><i class="fab fa-cc-paypal fa-2x"></i></a>
+          </div>
+          <div class="col-12 col-sm-6 mt-3 text-sm-end">
+            <p style="color: white;">Join now!This will make you happier.</p>
+              <input class="search turbo" type="text" placeholder="Masukan Email" required>	
+              <input class="button btn-danger tempel" type="button" value="Subscribe">		
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- akhir footer -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
+
+<!-- bit.ly/absen-praktikum-web
+3012js -->
